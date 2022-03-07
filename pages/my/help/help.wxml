@@ -1,0 +1,5 @@
+<view class="person">
+  <image class="show1" src="/pages/img/au1.gif"/>开发者</view>
+<view class="name">PYJ</view>
+
+<image class="show2" style="position:absolute;bottom: 0;" src="/pages/img/au2.gif"/>

@@ -1,0 +1,36 @@
+page{
+  background-color:#FFFFFF
+}
+.person{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size:40rpx;
+  color:#5b5b5b;
+  line-height:3em; 
+}
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40rpx;
+  color:#5b5b5b;
+  line-height:2em;  
+}
+.show1{  
+display:flex;
+width: 640rpx;
+height: 192rpx;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.show2{
+display:flex;
+width:750rpx;
+height:400rpx;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}

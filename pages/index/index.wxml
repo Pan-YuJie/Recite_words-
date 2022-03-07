@@ -1,0 +1,47 @@
+
+<view class="box" >
+  <view class="cu-bar search bg-white" bindtap="goscr">
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" bindinput="cha" placeholder="输入要查找的英语单词" confirm-type="search"></input>
+    </view>
+    
+    <view class="action">
+      <button class="cu-btn bg-green shadow-blur round" size="mini" bindtap="goscr">搜</button>
+    </view>
+
+  </view>
+  </view>
+
+  <swiper class="card-swiper " indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500"  indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item wx:for="{{swiperList}}" wx:key="{{item}}">
+    <view class="swiper-item" style="width: 578rpx; height: 364rpx; display: block; box-sizing: border-box">
+      <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}" style="width: 750rpx; height: 418rpx; display: inline-block; box-sizing: border-box"></image>
+      <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+    </view>
+  </swiper-item>
+</swiper>
+
+
+<view class="padding-sm" >
+  <view class="flex flex-wrap justify-around">
+    <button class="cu-btn bg-{{item.color}} animation-{{animation==item.name+'s'?item.name:''}} animation-reverse margin-sm basis-sm shadow"  wx:for="{{list}}" wx:key="{{index}}">{{item.name}}</button>
+  </view>
+</view>
+
+<view class="button-sp-area" >
+  <navigator class="content" hover-class="none" url="/pages/bei/bei" open-type="navigate">
+<view class="padding-sm" >
+<button class="bg-gradual-blue padding radius text-center shadow-blur"  style="position: relative; left: 0rpx; top: 29rpx">背单词
+</button>
+</view>
+</navigator>
+<navigator class="content" hover-class="none" url="/pages/study/study" open-type="navigate">
+<view class="padding-sm">
+<button class="bg-gradual-orange padding radius text-center shadow-blur" hover-class="button-hover"  style="position: relative; left: 0rpx; top: 55rpx">查询已背单词</button>
+</view>
+</navigator>
+</view>
+
+
+

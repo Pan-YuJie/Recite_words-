@@ -1,0 +1,35 @@
+<!-- miniprogram/pages/study/word/word.wxml -->
+<view class="container" catchtap='read'>
+  <!-- 单词 -->
+  <!-- <progress class='word-progress' percent='{{content}}' activeColor='#4b5cc4'></progress>  -->
+  <text class="word-content"  style="color: black" >{{words}}</text>
+  <!-- 发音 -->
+  <view class="pron-container" style="margin-top:5px">
+    <image class="pron-icon" src="/pages/img/pron-icon.png"></image>
+    <text class="word-pron" bindtap="read">/{{wordPronounce}}/</text>
+  </view>
+
+  <!-- <view>
+    <loading hidden="{{hidden}}">加载中...</loading>
+  </view> -->
+  <!-- 释义 -->
+
+        <text wx:if="{{display}}" class="word-definition" style="color: coral; font-style:initial ; font-size: large;margin-top: 40px; font-weight: 1000;;font-variant:initial;">{{wordTranslation}}</text>
+
+  <view class="button-miss" catchtap="show">
+      <text class="word-miss" catchtap="show">不认识</text>
+    </view>
+
+    <view class="button-next" catchtap="next">
+      <text class="word-miss" catchtap="next">下一个</text>
+    </view>
+
+  <!-- <view class='button-view'>
+    <view class="button-style" catchtap="show">
+      <text class="word-style" catchtap="show">不认识</text>
+    </view>
+    <view class="button-style" catchtap="next">
+      <text class="word-next" catchtap="next">下一个</text>
+    </view>
+  </view> -->
+</view>

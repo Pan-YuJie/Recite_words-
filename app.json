@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/my/my",
+    "pages/bei/bei",
+    "pages/beiguo/beiguo",
+    "pages/login/login",
+    "pages/study/study",
+    "pages/zhuce/zhuce"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "GGG单词",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/img/read2.png",
+        "selectedIconPath": "pages/img/read1.png",
+        "text": "背单词"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "pages/img/search2.png",
+        "selectedIconPath": "pages/img/search1.png",
+        "text": "查单词"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "pages/img/my1.png",
+        "selectedIconPath": "pages/img/my2.png",
+        "text": "我的"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#0050f7"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,20 @@
+<!-- miniprogram/pages/study/study.wxml -->
+<view class="container">
+  <view class='page_bd'>
+    <view class="body_head" bindtap="showitem">
+      查看已经<text style="color:indianred;font-size: medium;font-weight: 700;">背过单词</text>记录   ( <text style="color:indianred;font-size: medium;font-weight: 600;">{{list.length}}个</text> )
+      <view class='book_icon'>
+        <image class='icon_img' mode="{{mode}}" src="/pages/img/dropdown.jpg"></image>
+      </view>
+    </view>
+
+      <view wx:for="{{list}}" wx:key="index" data-userId="{{item.userId}}" data-words="{{item.words}}" bindtap="goWord" >
+      <view class="{{open?'display_show':'display_none'}}">
+      {{index+1}}. {{list[index].words}}
+      </view>
+      
+    </view>
+  </view>
+
+  </view>
+

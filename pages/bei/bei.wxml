@@ -1,0 +1,20 @@
+<view class="container">
+    <text class="word-content" style="color:black">{{words}}</text>
+
+    <view class="pron-container">
+      <image class="pron-icon" src="/pages/img/pron-icon.png"></image>
+      <text class="word-pron" bindtap="read">/{{wordPronounce}}/</text>
+    </view>
+
+    <text wx:if="{{showNot}}" class="word-definition" style="color: coral; font-style:initial ; font-size: large;margin-top: 40px; font-weight: 1000;font-variant:initial;">{{wordTranslation}}</text>
+
+    <view class="button-miss" catchtap="show">
+      <text class="word-miss" catchtap="show">不认识</text>
+    </view>
+
+    <view class="button-next" catchtap="next">
+      <text class="word-next" catchtap="next">下一个</text>
+    </view>
+
+
+</view>

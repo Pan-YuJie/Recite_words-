@@ -1,0 +1,104 @@
+/* pages/search2/search2.wxss */
+
+@font-face {
+  font-family: 'webfont';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_e4qkf1n1rbq.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_e4qkf1n1rbq.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_e4qkf1n1rbq.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_e4qkf1n1rbq.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_e4qkf1n1rbq.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_e4qkf1n1rbq.svg#NotoSansHans-Black') format('svg'); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: 'webfont1';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_7kwo2s1w1yw.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_7kwo2s1w1yw.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_7kwo2s1w1yw.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_7kwo2s1w1yw.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_7kwo2s1w1yw.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_7kwo2s1w1yw.svg#NotoSansHans-Black') format('svg'); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: 'webfont2';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_xefedp6reqc.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/webfont_xefedp6reqc.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/webfont_xefedp6reqc.woff2') format('woff2'),
+  url('//at.alicdn.com/t/webfont_xefedp6reqc.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/webfont_xefedp6reqc.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/webfont_xefedp6reqc.svg#NotoSansHans-Black') format('svg'); /* iOS 4.1- */
+}
+
+
+.frot{
+  color: brown;
+  font-family:"webfont"
+}
+
+.frot1{
+  color: coral;
+  font-family:"webfont1"
+}
+
+.frot2{
+  color: cornflowerblue;
+  font-family:"webfont2"
+}
+
+
+input {
+  border: 1px solid #efefef;
+  width: 88%;
+  height: 40px;
+  font-size: 15px;
+  padding: 2px 10px;
+  background: #fff;
+  line-height: 30px;
+  border-radius: 5px;
+  margin: 30rpx auto;
+  margin-top: 30px;
+}
+
+button {
+  margin-top: 20px;
+}
+.text-container{
+  margin:5%;
+  padding:10px 20px;
+  text-align:left;
+  border:1px solid #ddd;
+  border-radius:20px;
+  padding-top:5px;
+  min-height:100px;
+  height:auto;
+}
+.textView{
+  margin: 5%;
+}
+.senView{
+ margin: 5%;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+.senSen{
+  color: #666;
+  padding: 1rpx;
+  border-bottom:1px solid #e8e8e8;
+}
+.senExam{
+  font-size: 24rpx;
+  letter-spacing: 1px;
+}
+.senTrans{
+  font-size: 24rpx;
+  padding:8px 0px;
+
+}

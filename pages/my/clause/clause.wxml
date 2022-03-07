@@ -1,0 +1,11 @@
+<!-- pages/settings/clause/clause.wxml -->
+<view>
+  <view class='text-view'>
+    <text class="text-head">感谢您使用GGG单词</text>
+  </view>
+  <view class='text-view'>
+    <text class="clause">小程序正在继续开发中...\n\n\n</text>
+    <text class="clause">...(^~^)...</text>
+    <text class="clause">\n哈哈\n</text>
+  </view>
+</view>

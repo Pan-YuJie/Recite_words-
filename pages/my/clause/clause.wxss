@@ -1,0 +1,18 @@
+page{
+  background-color: #FFFFFF;
+}
+.text-view {
+  text-align: center;
+  margin: 200rpx;
+}
+.text-head {
+    font-family: STHeiti;
+    font-size: 32rpx;
+    text-align: center;
+}
+
+.clause {
+    font-family: Adobe Fangsong Std;
+    font-size: 32rpx;
+}
+
