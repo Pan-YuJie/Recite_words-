@@ -35,7 +35,8 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "useIsolateContext": true,
+    "enableEngineNative": false,
+    "useIsolateContext": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
@@ -47,7 +48,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.19.4",
-  "appid": "wx78b129f6336da55f",
+  "appid": "wx161402955690456f",
   "projectname": "GGG%E8%83%8C%E5%8D%95%E8%AF%8D",
   "debugOptions": {
     "hidedInDevtools": []

@@ -99,8 +99,8 @@ Page({
   },
 
   next:function(){
-    let that=this;
     this.promptTone() //提示音
+    let that=this;
     that.setData({
       showNot:false
     })
@@ -121,7 +121,9 @@ Page({
       console.log(res)
     }
     })
-    this.onLoad();
+  
+   // this.onLoad();
+
   },
 
   show:function(){

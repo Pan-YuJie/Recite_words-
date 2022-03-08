@@ -13,25 +13,25 @@
     <view class="cu-item">
       <navigator class="content" hover-class="none" url="/pages/study/study" open-type="navigate">
         <text class="cuIcon-btn text-olive"></text>
-        <text class="text-grey">查询已经背的单词</text>
+        <text class="text-grey"style="font-size: medium;">查询已经背的单词</text>
       </navigator>
     </view>
     <view class="cu-item">
       <navigator class="content" hover-class="none" url="/pages/bei/bei" open-type="navigate">
         <text class="cuIcon-discoverfill text-orange"></text>
-        <text class="text-grey">背单词</text>
+        <text class="text-grey"style="font-size: medium;">背单词</text>
       </navigator>
     </view>
     <view class="cu-item">
       <navigator class="content" hover-class="none" url="/pages/search/search" open-type="switchTab">
         <text class="cuIcon-emojiflashfill text-pink"></text>
-        <text class="text-grey">查询单词</text>
+        <text class="text-grey" style="font-size: medium;">查询单词</text>
       </navigator>
     </view>
     <view class="cu-item">
-      <navigator class="content" hover-class="none" url="/pages/my/help/help" open-type="switchTab">
-        <text class="cuIcon-emojiflashfill text-pink"></text>
-        <text class="text-grey">软件开发</text>
+      <navigator class="content" hover-class="none" url="/pages/my/help/help" open-type="navigate">
+        <text class="cuIcon-tagfill text-red"></text>
+        <text class="text-grey"style="font-size: medium;">软件开发</text>
       </navigator>
     </view>
     <view class="deng">
